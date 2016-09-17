@@ -1,6 +1,7 @@
 # Synopsys
 
-Sometimes it's what I forget.
+Sometimes it's what I often forget.
+
 Sometimes it's what I want to share.
 
 # Table of contents
