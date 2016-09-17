@@ -16,6 +16,9 @@ cut -d 'X' -f     3-      # Split input by delimeter X and emit all fields start
 cut -d 'X' -f     -3      # Split input by delimeter X and emit fields from 1st till 3rd
 cut -d 'X' -f    2-4      # Split input by delimeter X and emit fields from 2nd till 4th
 cut -d 'X' -f  1,3-5      # Split input by delimeter X and emit fields 1st and from 3rd till 5th
+
+tr   'a'   'z'            # Replace 'a' by 'z'
+tr 'abc' 'xyz'            # Replace 'a' by 'x', 'b' by 'y', and 'c' by 'z'
 ```
 
 ## Vim
