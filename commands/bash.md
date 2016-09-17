@@ -13,9 +13,9 @@ vim -b <file> # Open text file with binary characters
 ### What are the installed packages?
 
 ```
-npm list -g --depth=0     # Global
+npm list -g     --depth=0 # Global
 npm list --prod --depth=0 # Production
-npm list --dev --depth=0  # Development
+npm list --dev  --depth=0 # Development
 ```
 
 ### Install
