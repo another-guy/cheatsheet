@@ -10,6 +10,10 @@ vim -b <file> # Open text file with binary characters
 
 ## NPM
 
+```
+npm init # Initialize package.json
+```
+
 ### What are the installed packages?
 
 ```
@@ -39,6 +43,10 @@ npm un          <packageName> -D #           from "devDependencies"
 ## Typings
 
 ```
+npm i typings --global   # Install Typings as a tool
+typings init             # Initialize `typings.json`
+typings list             # Print dependencies
+
 typings install [<source>~]<packageName> --save-dev --global
 typings install dt~karma --save-dev --global
 ```
