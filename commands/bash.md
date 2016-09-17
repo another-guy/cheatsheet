@@ -6,6 +6,12 @@
 find <path>          # Find all directories and files under `path`
 find <path> -type f  # Find all                 files under `path`
 find <path> -type d  # Find all directories           under `path`
+
+cut -d 'X' -f      3      # Split input by delimeter X and emit 3rd field
+cut -d 'X' -f     3-      # Split input by delimeter X and emit all fields starting with 3rd
+cut -d 'X' -f     -3      # Split input by delimeter X and emit fields from 1st till 3rd
+cut -d 'X' -f    2-4      # Split input by delimeter X and emit fields from 2nd till 4th
+cut -d 'X' -f  1,3-5      # Split input by delimeter X and emit fields 1st and from 3rd till 5th
 ```
 
 ## Vim
