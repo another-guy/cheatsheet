@@ -2,11 +2,15 @@
 
 ## Bash
 
+### File system
 ```
 find <path>          # Find all directories and files under `path`
 find <path> -type f  # Find all                 files under `path`
 find <path> -type d  # Find all directories           under `path`
+```
 
+### Text manipulation
+```
 cut -d 'X' -f      3      # Split input by delimeter X and emit 3rd field
 cut -d 'X' -f     3-      # Split input by delimeter X and emit all fields starting with 3rd
 cut -d 'X' -f     -3      # Split input by delimeter X and emit fields from 1st till 3rd
@@ -19,6 +23,8 @@ cut -d 'X' -f  1,3-5      # Split input by delimeter X and emit fields 1st and f
 ```
 vim -b <file> # Open text file with binary characters
 ```
+
+## Git
 
 ## NPM
 
