@@ -2,6 +2,12 @@
 
 ## Bash
 
+```
+find <path>          # Find all directories and files under `path`
+find <path> -type f  # Find all                 files under `path`
+find <path> -type d  # Find all directories           under `path`
+```
+
 ## Vim
 
 ```
