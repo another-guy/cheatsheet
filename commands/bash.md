@@ -29,6 +29,10 @@ vim -b <file> # Open text file with binary characters
 
 ## Git
 
+```
+git update-index --assume-unchanged <path>  # Stop detecting changes in <path>
+```
+
 ## NPM
 
 ```
