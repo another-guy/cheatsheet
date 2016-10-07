@@ -52,6 +52,7 @@ npm list --dev  --depth=0 # Development
 *Call `install` from the directory containing `node_modules`*
 
 ```
+npm outdated                   # Shows the packages that better be updated
 npm i[nstall] <packageName> -g # Install package globally
 npm i         <packageName> -S #                 as production ("dependencies")
 npm i         <packageName> -D #                 as development ("devDependencies")
