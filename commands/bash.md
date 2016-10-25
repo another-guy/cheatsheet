@@ -19,6 +19,8 @@ cut -d 'X' -f  1,3-5      # Split input by delimeter X and emit fields 1st and f
 
 tr   'a'   'z'            # Replace 'a' by 'z'
 tr 'abc' 'xyz'            # Replace 'a' by 'x', 'b' by 'y', and 'c' by 'z'
+
+sed -e 's/foo/bar/g'      # Replace 'foo' with 'bar'
 ```
 
 ## Vim
