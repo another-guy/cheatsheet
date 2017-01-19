@@ -6,7 +6,12 @@ Sometimes it's what I want to share.
 
 # Table of contents
 
-* [Bash commands](https://github.com/another-guy/cheatsheet/blob/master/commands/bash.md#bash)
-* [Git commands](https://github.com/another-guy/cheatsheet/blob/master/commands/bash.md#git)
-* [NPM commands](https://github.com/another-guy/cheatsheet/blob/master/commands/bash.md#npm)
-* [Typings](https://github.com/another-guy/cheatsheet/blob/master/commands/bash.md#typings)
+* [Bash commands](commands/bash.md#bash)
+* [Git commands](commands/bash.md#git)
+* [NPM commands](commands/bash.md#npm)
+* [Typings](commands/bash.md#typings)
+
+# Snippets
+
+* [.bash_profile](snippets/.bash_profile.md)
+* [beep.ps1](snippets/beep.ps1)
