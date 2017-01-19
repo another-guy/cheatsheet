@@ -78,3 +78,9 @@ typings list             # Print dependencies
 typings install [<source>~]<packageName> --save-dev --global
 typings install dt~karma --save-dev --global
 ```
+
+## TsLint
+
+```
+tslint -c tslint.json ./src/**/*.ts
+```
