@@ -35,6 +35,12 @@ vim -b <file> # Open text file with binary characters
 git update-index --assume-unchanged <path>  # Stop detecting changes in <path>
 ```
 
+## .NET Core
+
+```
+ASPNETCORE_ENVIRONMENT=Development dotnet run # Run app under certain environment configuration
+```
+
 ## NPM
 
 ```
