@@ -38,7 +38,8 @@ git update-index --assume-unchanged <path>  # Stop detecting changes in <path>
 ## .NET Core
 
 ```
-ASPNETCORE_ENVIRONMENT=Development dotnet run # Run app under certain environment configuration
+ASPNETCORE_ENVIRONMENT=Development dotnet run   #  Run app under certain   environment configuration
+ASPNETCORE_URLS="https://*:57383"  dotnet run   #  -//-  -//-  -//-  -//-  port
 ```
 
 ## NPM
