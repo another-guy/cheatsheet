@@ -32,10 +32,10 @@ git update-index --assume-unchanged <path>  # Stop detecting changes in <path>
 ## Bash + Git
 
 ```
-ssh-keygen -t rsa -C "<email>@<email>.com"                              # Generate SSH key pare
-cat ~/.ssh/id_rsa ~/.ssh/id_rsa.pub                                     # Check private and public keys
-git config core.sshCommand "ssh -i ~/.ssh/id_rsa -F /dev/null"          # Configure CURRENT Git repo to use private key
-git push <remote> master:master                                         # Make a push to target <remote> as usual
+ssh-keygen -t rsa -C "<email>@<email>.com"                        # Generate SSH key pare
+cat ~/.ssh/id_rsa ~/.ssh/id_rsa.pub                               # Check private and public keys
+git config core.sshCommand "ssh -i ~/.ssh/id_rsa -F /dev/null"    # Configure CURRENT Git repo to use private key
+git push <remote> master:master                                   # Make a push to target <remote> as usual
 ```
 
 ## Vim
