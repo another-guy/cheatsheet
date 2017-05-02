@@ -87,6 +87,12 @@ npm un          <packageName> -D #           from "devDependencies"
 ## Typings
 
 ```
+npm install @types/<packageName> --save-dev
+```
+
+## Typings [Deprecated]
+
+```
 npm i typings --global   # Install Typings as a tool
 typings init             # Initialize `typings.json`
 typings list             # Print dependencies
