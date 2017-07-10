@@ -13,5 +13,6 @@ Sometimes it's what I want to share.
 
 # Snippets
 
+* [VS Code](snippets/user.settings.md)
 * [.bash_profile](snippets/.bash_profile.md)
 * [beep.ps1](snippets/beep.ps1)
