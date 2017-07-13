@@ -1,3 +1,17 @@
+# Powershell
+
+## Chocolatey
+
+Run Powershell as an Administrator.
+
+Run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass`.
+Now run the following command:   (copy command text)
+
+```
+# Don't forget to ensure ExecutionPolicy above
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
 # Bash recipes
 
 ## Bash
