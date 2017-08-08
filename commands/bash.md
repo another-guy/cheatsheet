@@ -120,3 +120,9 @@ typings install dt~karma --save-dev --global
 ```
 tslint -c tslint.json ./src/**/*.ts
 ```
+
+## MySQL
+
+```
+mysqld --initialize-insecure     # Reinitialize database (!LOOSING SCHEMAS) to drop the password
+```
