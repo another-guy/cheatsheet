@@ -123,6 +123,18 @@ tslint -c tslint.json ./src/**/*.ts
 
 ## MySQL
 
+### Setup
+
 ```
 mysqld --initialize-insecure     # Reinitialize database (!LOOSING SCHEMAS) to drop the password
+```
+
+### Explore schema
+
+```
+show databases;
+use <database>;
+show tables;
+describe <table>;                # desc <table>
+show create table <table>;
 ```
