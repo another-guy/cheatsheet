@@ -4,6 +4,7 @@
 * Auto-format TypeScript
 * Hide JavaScript and map files if corresponding TypeScript files exist
 * Hide version control directories (`.git`, `.gh`, etc.)
+* Wrap long JSON lines (since it's impossible to legally split the string literal into two)
 
 ## Content
 
