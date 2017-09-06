@@ -145,3 +145,14 @@ show create table <table>;
 7z a -r <encrypted_dest> <src>   # Encrypt target recursively
 7z x <encrypted_src> -o <dest>   # Extract to specific path
 ```
+
+# Google Cloud Platform
+
+## KMS
+
+```
+less file_to_encrypt.txt | base64 > encrypted.txt.base64
+gcloud kms encrypt ...          # TODO
+gcloud kms decrypt ...          # TODO
+less file_to_decrypt.txt.base64 | base64 --decode > decrypted.txt
+```
