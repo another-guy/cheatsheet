@@ -138,3 +138,10 @@ show tables;
 describe <table>;                # desc <table>
 show create table <table>;
 ```
+
+## 7zip
+
+```
+7z a -r <encrypted_dest> <src>   # Encrypt target recursively
+7z x <encrypted_src> -o <dest>   # Extract to specific path
+```
