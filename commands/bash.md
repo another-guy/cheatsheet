@@ -151,8 +151,13 @@ show create table <table>;
 ## KMS
 
 ```
+echo <text_to_encrypt>   | base64 > encrypted.txt.base64
 less file_to_encrypt.txt | base64 > encrypted.txt.base64
+
 gcloud kms encrypt ...          # TODO
+
 gcloud kms decrypt ...          # TODO
+
+echo <text_to_decrypt>          | base64 --decode > decrypted.txt
 less file_to_decrypt.txt.base64 | base64 --decode > decrypted.txt
 ```
