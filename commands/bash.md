@@ -98,6 +98,19 @@ npm un          <packageName> -S #           from "dependencies"
 npm un          <packageName> -D #           from "devDependencies"
 ```
 
+### Package Update
+
+**via `npm-check-updates` aka `ncu`**
+
+```
+npm install -g npm-check-updates  # Install `npm-check-updates` as an npm command.
+
+ncu --upgradeAll                  # Upgrade all with making changes to package.json.
+rm -rf node_modules               # Remove existing npm package artifacts.
+npm install                       # Reinstall packages from scratch.
+npm outdated                      # Verify the result.
+```
+
 ## Typings
 
 ```
