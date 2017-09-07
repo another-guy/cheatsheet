@@ -109,6 +109,9 @@ ncu --upgradeAll                  # Upgrade all with making changes to package.j
 rm -rf node_modules               # Remove existing npm package artifacts.
 npm install                       # Reinstall packages from scratch.
 npm outdated                      # Verify the result.
+
+ncu -g
+npm install -g <package>@<ver>
 ```
 
 ## Typings
