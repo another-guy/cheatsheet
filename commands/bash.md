@@ -177,3 +177,10 @@ gcloud kms decrypt ...          # TODO
 echo <text_to_decrypt>          | base64 --decode > decrypted.txt
 less file_to_decrypt.txt.base64 | base64 --decode > decrypted.txt
 ```
+
+# Misc
+
+Run Google Chrome with disabled security (for Development)
+```
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession"
+```
