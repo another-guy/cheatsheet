@@ -1,4 +1,4 @@
-* StackExchange Interactive Code Snippet
+# StackExchange Interactive Code Snippet
 
 ```ts
 <!-- begin snippet: js hide: false console: true babel: false -->
