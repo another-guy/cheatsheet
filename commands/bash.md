@@ -40,7 +40,10 @@ sed -e 's/foo/bar/g'      # Replace 'foo' with 'bar'
 ## Git
 
 ```
-git update-index --assume-unchanged <path>  # Stop detecting changes in <path>
+git update-index --assume-unchanged <path>          # Stop detecting changes in <path>
+
+git shortlog --summary --numbered                   # Show user and commits stats in Git; same as `git shortlog -sn`
+git log --pretty="%an %ae%n%cn %ce" | sort | uniq   # List users and their emails
 ```
 
 ## Bash + Git
