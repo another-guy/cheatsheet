@@ -1,17 +1,3 @@
-# Powershell
-
-## Chocolatey
-
-Run Powershell as an Administrator.
-
-Run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass`.
-Now run the following command:   (copy command text)
-
-```
-# Don't forget to ensure ExecutionPolicy above
-iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-```
-
 # Bash recipes
 
 ## Bash
@@ -117,6 +103,28 @@ ncu -g
 npm install -g <package>@<ver>
 ```
 
+## Json-Server
+
+```
+npm install -g json-server
+```
+
+## Hotel
+
+```
+npm install -g hotel
+
+hotel start
+
+hotel add 'json-server --watch db.json --port 3001' -p 3001 -n fake-db -o fake-db.log
+hotel add 'ng serve' -p 4200 -n my-spa-app -o my-spa-app.log
+
+hotel rm -n fake-db
+hotel rm -n my-spa-app
+
+hotel stop
+```
+
 ## Typings
 
 ```
@@ -179,6 +187,20 @@ gcloud kms decrypt ...          # TODO
 
 echo <text_to_decrypt>          | base64 --decode > decrypted.txt
 less file_to_decrypt.txt.base64 | base64 --decode > decrypted.txt
+```
+
+# Powershell
+
+## Chocolatey
+
+Run Powershell as an Administrator.
+
+Run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass`.
+Now run the following command:   (copy command text)
+
+```
+# Don't forget to ensure ExecutionPolicy above
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
 # Misc
