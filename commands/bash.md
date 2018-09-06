@@ -189,6 +189,17 @@ echo <text_to_decrypt>          | base64 --decode > decrypted.txt
 less file_to_decrypt.txt.base64 | base64 --decode > decrypted.txt
 ```
 
+# OpenSSL
+
+## Generate CSR and private key for `mydomain.com`
+
+```
+openssl req -new -newkey rsa:2048 -nodes -keyout mydomain.com.key -out mydomain.com.csr
+```
+
+Use `mydomain.com.csr` to request a certificate from the certification authority (CA).
+CA will issue a `mydomain_com.crt` (certificate itself) and `mydomain_com.ca-bundle` (intermediate certificates/CA certificate chain).
+
 # Powershell
 
 ## Chocolatey
