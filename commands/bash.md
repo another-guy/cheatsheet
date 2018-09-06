@@ -200,6 +200,14 @@ openssl req -new -newkey rsa:2048 -nodes -keyout mydomain.com.key -out mydomain.
 Use `mydomain.com.csr` to request a certificate from the certification authority (CA).
 CA will issue a `mydomain_com.crt` (certificate itself) and `mydomain_com.ca-bundle` (intermediate certificates/CA certificate chain).
 
+## Trigger domain name ownership validation process via CNAME record
+
+![c](images/namecheap_trigger_domain_ownership_validation.png)
+
+## Add CNAME record via Netlify
+
+![c](images/netlify_dns_cname_record.png)
+
 ## Install the certificate with Netlify
 
 ![c](./images/netlify.png)
