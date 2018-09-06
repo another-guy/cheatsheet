@@ -200,6 +200,10 @@ openssl req -new -newkey rsa:2048 -nodes -keyout mydomain.com.key -out mydomain.
 Use `mydomain.com.csr` to request a certificate from the certification authority (CA).
 CA will issue a `mydomain_com.crt` (certificate itself) and `mydomain_com.ca-bundle` (intermediate certificates/CA certificate chain).
 
+## Install the certificate with Netlify
+
+![c](./images/netlify.png)
+
 # Powershell
 
 ## Chocolatey
