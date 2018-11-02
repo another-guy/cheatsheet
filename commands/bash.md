@@ -87,6 +87,12 @@ npm un          <packageName> -S #           from "dependencies"
 npm un          <packageName> -D #           from "devDependencies"
 ```
 
+### CRA
+
+```
+npx create-react-app wishlist --typescript
+```
+
 ### Package Update
 
 **via `npm-check-updates` aka `ncu`**
