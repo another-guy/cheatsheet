@@ -91,6 +91,14 @@ ASPNETCORE_URLS="https://*:57383"  dotnet run   #  -//-  -//-  -//-  -//-  port
 npm init # Initialize package.json
 ```
 
+### Where are the global packages located?
+
+```sh
+yarn global bin
+
+npm bin -g
+```
+
 ### What are the installed packages?
 
 ```
