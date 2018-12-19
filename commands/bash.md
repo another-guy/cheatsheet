@@ -1,6 +1,37 @@
 # Bash recipes
 
+## Install Dot Net Core SDK on Mint
+
+```sh
+sudo add-apt-repository universe
+
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.asc.gpg
+sudo mv microsoft.asc.gpg /etc/apt/trusted.gpg.d/
+wget -q https://packages.microsoft.com/config/debian/8/prod.list
+sudo mv prod.list /etc/apt/sources.list.d/microsoft-prod.list
+sudo chown root:root /etc/apt/trusted.gpg.d/microsoft.asc.gpg
+sudo chown root:root /etc/apt/sources.list.d/microsoft-prod.list
+
+sudo apt-get update
+
+sudo apt-get install dotnet-sdk-2.2
+```
+
 ## Bash
+
+### Hardware
+
+```sh
+lspci                      # Enumerate system devices as a list
+
+inxi -Fxz                  # Enumerate system devices in a human-friendly format
+```
+
+**If your wifi is slow when using Bluetooth try adding the following to `/etc/modprobe.d/iwkwifi.conf` and reboot:**
+
+```sh
+options iwlwifi bt_coex_active=0 swcrypto=1 11n_disable=8
+```
 
 ### File system
 ```
